@@ -1,0 +1,54 @@
+.navButtonGroup {
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  height: 7em;
+}
+
+.rightNavButtonGroup {
+  display: flex;
+  flex: row;
+  justify-content: flex-end;
+  height: 7em;
+}
+
+.mainButton {
+  border: none;
+  background-color: white;
+  color: #0f7c77;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.mainButton:hover {
+  text-decoration: underline;
+  color: #0f7c77;
+}
+
+.mainButton:active {
+  transform: scale(0.8);
+  text-decoration: none;
+}
+
+.navButton {
+  border: none;
+  background-color: white;
+  color: #0f7c77;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.navButton:hover {
+  text-decoration: underline;
+  color: #0f7c77;
+}
+
+.navButton:active {
+  transform: scale(0.8);
+  text-decoration: none;
+}
+
+.bldgImg {
+  width: 40%;
+  height: auto;
+}
